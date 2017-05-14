@@ -13,7 +13,7 @@
     padding-right: 5%;
     /*margin-top : 30px;*/
     border-bottom: 0.5px solid #bdc3c7;
-    box-shadow: 0 0 8px -2px #bdc3c7;
+    box-shadow: 0 0 8px -2px grey;
     font: instagram;
     top: 0;
     position: fixed;
@@ -24,6 +24,7 @@
     justify-content: space-between;
     background-color: white;
     opacity: 0.9;
+    z-index: 300;
 }
 
 .nav_share {
@@ -61,34 +62,72 @@
     margin-left: 15px;
 }
 
-.article_pic {
+.close {
+    margin-left: auto;
+}
+
+.article_pic_div {
     position: relative;
+    
     width: 100%;
     border-bottom: 0.5px solid #bdc3c7;
 }
 
-.article_pic:after {
+
+.article_pic_div:after {
     content: "";
     display: block;
     padding-top: 100%;    
 }
 
 
+
+.maps:after {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.item {
+    margin: 0 auto;
+}
+
+/*.btn_for_share {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
 .article_tool {
     width: 100%;
     /*height: 44px;*/
     padding-left: 5%;
     padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    align-items: center;
+    justify-content: center;
     /*border-bottom: 0.5px solid #bdc3c7;*/
     
     
 } 
 
 .article_tool_info_image {
-    width: 33px;
+    /*text-align: center;*/
+    height: 33px;
     margin-top: 7px;
     margin-bottom: 7px;
     
+}
+
+.article_tool_hr {
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 5%; 
+    margin-right:5%
+}
+
+.share_wrapper {
+     text-align: center;
 }
 
 .btn_for_modal {
@@ -97,10 +136,44 @@
     border-radius: 0;
     padding: 0px;
     border-bottom: 0.5px solid #bdc3c7;
+    /*background-image: image-url("khufuntemplate_1.png");*/
 }
+
+.madeby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+}
+
+/*.modal_madeby_div {*/
+/*    display: inline-block;*/
+/*}*/
+
+.modal_madeby_image {
+    width: 100%;
+}
+
 
 .article_info {
     overflow: visible;
     padding: 5%;
 }
 
+#map {
+    position: relative;
+    width: 100%;
+}
+ 
+/*.btn_for_share {*/
+/*    margin-bottom: 15px;*/
+/*}*/
+/*#map:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    padding-top: 100%;    */
+/*}*/
