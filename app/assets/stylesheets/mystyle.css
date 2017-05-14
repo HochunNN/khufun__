@@ -176,3 +176,12 @@
 /*    display: block;*/
 /*    padding-top: 100%;    */
 /*}*/
+
+@media (min-width: 450px) { 
+    #media_wrapper {
+        width: 450px;
+        margin: 0 auto;
+        
+    }
+    
+}
