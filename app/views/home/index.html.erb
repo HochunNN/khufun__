@@ -50,13 +50,24 @@
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
-          <!--<li data-target="#myCarousel" data-slide-to="3"></li>-->
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
     
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-    
+          
           <div class="item active">
+            <img src="<%= image_path("monday.png") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+          
+          <div class="item">
+            <img src="<%= image_path("170522_monday_2.png") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+          
+          <div class="item">
             <img src="<%= image_path("howtouse.png") %>" alt="Los Angeles" style="width:100%;">
             
           </div>
@@ -158,7 +169,208 @@
   </div>
 </div>
 
-<!--두번째 아티클-->
+<!--릴리랄라 -->
+
+<div class="article">
+  <div class="article_nav">
+    <div class="article_nav_pic">
+      <img class="article_nav_pic" src="<%= image_path("lilylala.jpg") %>">
+    </div>
+    <div class="article_nav_title">
+        릴리랄라
+    </div>
+  </div>
+  <div class="article_pic_div">
+      
+        <div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-wrap="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="<%= image_path("lilylala_1.JPG") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>    
+          <div class="item">
+            <img src="<%= image_path("lilylala_2.jpg") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+    
+          <div class="item">
+            <img src="<%= image_path("lilylala_3.jpeg") %>" alt="Chicago" style="width:100%;">
+            
+          </div>
+        
+          <div class="item">
+            <img src="<%= image_path("lilylala_4.jpeg") %>" alt="New York" style="width:100%;">
+            
+          </div>
+          <div class="item">
+            <img src="<%= image_path("map_lilylala.png") %>" alt="New York" style="width:100%;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        
+      </div>
+    
+      
+      <!--<img>-->
+  </div>
+  <div class="article_tool">
+      
+    <!-- Button trigger modal -->
+    <button type="button" style="padding:0" class="btn_for_modal btn btn-lg" data-toggle="modal" data-target="#myModal_6">
+      <img class="article_tool_info_image" src="<%= image_path("getcoupon.png") %>">
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header article_nav">
+            
+            <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+            <div class="article_nav_pic">
+              <img class="article_nav_pic" src="<%= image_path("lilylala.jpg") %>">
+            </div>
+            <div class="article_nav_title">
+                릴리랄라
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            
+          </div>
+          <div class="modal-body">
+            <img src="<%= image_path("coupon_lilylala1.png") %>" style="width: 100%">
+            <img src="<%= image_path("coupon_lilylala2.png") %>" style="width: 100%">
+            <img src="<%= image_path("coupon_lilylala3.png") %>" style="width: 100%">
+            <p>각 쿠폰은 중복적용이 불가능합니다.(하나씩만 써주세요~)</p>
+          </div>
+          <div class="share_wrapper">
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">릴리랄라 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="article_tool_hr">
+  <div class="article_info">
+    <p style="font-size:20px"><strong>만든 녀석들 say</strong></p>
+    <i class="fa fa-quote-left" aria-hidden="true"></i>
+      니가알던 꽈배기가 아냐..!<br>1시간에 200개가 팔린 꽈배기!!<br>진짜 이렇게 맛있는 꽈배기 처음먹어봄...<br>바삭바삭하고 달고 맛있고... 어떻게 설명할 방법이 없네..<br>안먹어봤으면 지금 바로 궈궈..!<br>경희대생 한정 플레인 꽈배기 2000원..!! 빨리 궈궈<br>자체적으로 테이크아웃 아메리카노 1+1도 진행하고 계심... 천사이신듯..
+    <i class="fa fa-quote-right" aria-hidden="true"></i>
+  </div>
+</div>
+
+<!-- 주향 -->
+
+<div class="article">
+  <div class="article_nav">
+    <div class="article_nav_pic">
+      <img class="article_nav_pic" src="<%= image_path("juhyang.jpg") %>">
+    </div>
+    <div class="article_nav_title">
+        주향 2호점
+    </div>
+  </div>
+  <div class="article_pic_div">
+      
+        <div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-wrap="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="<%= image_path("juhyang_1.jpg") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>    
+          <div class="item">
+            <img src="<%= image_path("juhyang_2.JPG") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+    
+          <div class="item">
+            <img src="<%= image_path("juhyang_3.jpeg") %>" alt="Chicago" style="width:100%;">
+            
+          </div>
+        
+          <div class="item">
+            <img src="<%= image_path("juhyang_4.jpg") %>" alt="New York" style="width:100%;">
+            
+          </div>
+          <div class="item">
+            <img src="<%= image_path("map_juhyang.png") %>" alt="New York" style="width:100%;">
+          </div>
+        </div>
+    
+        <!-- Left and right controls -->
+        
+      </div>
+    
+      
+      <!--<img>-->
+  </div>
+  <div class="article_tool">
+      
+    <!-- Button trigger modal -->
+    <button type="button" style="padding:0" class="btn_for_modal btn btn-lg" data-toggle="modal" data-target="#myModal_7">
+      <img class="article_tool_info_image" src="<%= image_path("getcoupon.png") %>">
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header article_nav">
+            
+            <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+            <div class="article_nav_pic">
+              <img class="article_nav_pic" src="<%= image_path("juhyang.jpg") %>">
+            </div>
+            <div class="article_nav_title">
+                주향 2호점
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            
+          </div>
+          <div class="modal-body">
+            <img src="<%= image_path("coupon_juhyang.jpeg") %>" style="width: 100%">
+          </div>
+          <p styl="text-align:center">현재 자체적으로 이벤트 중! 기간은 5월 말까지! 6월달에는 쿠펀과 함께하는 쿠폰이 찾아옵니다!! (1호점, 2호점 모두 협의 중!)</p>
+          <div class="share_wrapper">
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">주향 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="article_tool_hr">
+  <div class="article_info">
+    <p style="font-size:20px"><strong>만든 녀석들 say</strong></p>
+    <i class="fa fa-quote-left" aria-hidden="true"></i>
+      경희대생들의 영원한 동반자 주향이 2호점을 오픈!!<br>긴말이 필요없는 곳... <br>안주로 풀코스 요리를 즐길수 있는 곳이라오...<br>거기다 5월 말까지 쐬주 1000원 이벤트 중이시니.. 궈궈...
+    <i class="fa fa-quote-right" aria-hidden="true"></i>
+  </div>
+</div>
+
+
+<!--라스타-->
 
 <div class="article">
   <div class="article_nav">
@@ -261,7 +473,7 @@
             
           </div>
           <div class="share_wrapper">
-            <button id="kakao_rastar_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">라스타 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">라스타 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
           </div>
         </div>
       </div>
@@ -277,12 +489,7 @@
   </div>
 </div>
 
-<!--세번째 아티클-->
-
-
-
-<!--네번째 아티클-->
-
+<!--별다방 미스리-->
 
 <div class="article">
   <div class="article_nav">
@@ -371,7 +578,7 @@
             <img src="<%= image_path("coupon_starcafe.png") %>" style="width: 100%">
           </div>
           <div class="share_wrapper">
-            <button id="kakao_star_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">별다방 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">별다방 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
           </div>
         </div>
       </div>
@@ -387,8 +594,7 @@
   </div>
 </div>
 
-<!--다섯번째-->
-
+<!--미니펍-->
 
 <div class="article">
   <div class="article_nav">
@@ -470,7 +676,7 @@
             <img src="<%= image_path("coupon_minipub.png") %>" style="width: 100%">
           </div>
           <div class="share_wrapper">
-            <button id="kakao_mini_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">미니펍 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">미니펍 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
           </div>
         </div>
       </div>
@@ -489,7 +695,7 @@
 
 <!--쏭스 핫도그-->
 
-<div class="article">
+<div class="article block_black" >
   <div class="article_nav">
     <div class="article_nav_pic">
       <img class="article_nav_pic" src="<%= image_path("hotdog.png") %>">
@@ -568,10 +774,10 @@
           </div>
           <div class="modal-body">
             <img src="<%= image_path("coupon_hotdog3.png") %>" style="width: 100%">
-            <p>사장님과의 소통에 오해가 있었습니다 현재 쿠폰을 다시 조율하고 있습니다.</p>
+            <p>안타깝지만 핫도그 쿠폰은 물건너 갔습니다.. 다른곳으로 섭외해보겠습니다...!</p>
           </div>
           <div class="share_wrapper">
-            <button id="kakao_songs_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">쏭스핫 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+            <button id="kakao_khufun_share" style="margin-bottom: 15px" type="button" class="btn btn_for_share">쏭스핫 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
           </div>
         </div>
       </div>
@@ -582,10 +788,12 @@
   <div class="article_info">
     <p style="font-size:20px"><strong>만든 녀석들 say</strong></p>
     <i class="fa fa-quote-left" aria-hidden="true"></i>
-      '타 경쟁 핫도그 사장님이 맛을 인정했다'고 사장님께서 <br>말하셨다. 딸기쨈이랑 핫도그가 생각보다 잘 어울린다
+      쿠폰 조율에 실패하였습니다. 다음 기회에...
     <i class="fa fa-quote-right" aria-hidden="true"></i>
   </div>
 </div>
+
+
 
 <script>
     $(document).ready(function(){
@@ -617,67 +825,67 @@
             }
         });
         
-        // 라스타 공유
+        // // 라스타 공유
         
-        Kakao.Link.createTalkLinkButton({
-            container: '#kakao_rastar_share',
-            label: '경희대학생 모두 쿠펀!!',
-            image: {
-                src: 'http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c120.0.720.720/12724967_1768844316681790_1731749377_n.jpg?ig_cache_key=MTIxODUxMzAxNTEwMDg3NjM4MA%3D%3D.2.c',
-                width: '300',
-                height: '300'
-            },
-            webButton: {
-                text: '라면먹으러 갈래?',
-                url: 'http://khufun.com/'
-            }
-        });
+        // Kakao.Link.createTalkLinkButton({
+        //     container: '#kakao_rastar_share',
+        //     label: '경희대학생 모두 쿠펀!!',
+        //     image: {
+        //         src: 'http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c120.0.720.720/12724967_1768844316681790_1731749377_n.jpg?ig_cache_key=MTIxODUxMzAxNTEwMDg3NjM4MA%3D%3D.2.c',
+        //         width: '300',
+        //         height: '300'
+        //     },
+        //     webButton: {
+        //         text: '라면먹으러 갈래?',
+        //         url: 'http://khufun.com/'
+        //     }
+        // });
         
-        // 쏭스핫도그 공유 
-        Kakao.Link.createTalkLinkButton({
-            container: '#kakao_songs_share',
-            label: '경희대학생 모두 쿠펀!!',
-            image: {
-                src: 'http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/15043967_688172121337693_1342963632677322752_n.jpg?ig_cache_key=MTM4NjE1MDEwNjU3MDU2Nzc5NA%3D%3D.2.c',
-                width: '300',
-                height: '300'
-            },
-            webButton: {
-                text: '핫도그 먹으러 갈래?',
-                url: 'http://khufun.com/'
-            }
-        });
+        // // 쏭스핫도그 공유 
+        // Kakao.Link.createTalkLinkButton({
+        //     container: '#kakao_songs_share',
+        //     label: '경희대학생 모두 쿠펀!!',
+        //     image: {
+        //         src: 'http://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/c0.134.1080.1080/15043967_688172121337693_1342963632677322752_n.jpg?ig_cache_key=MTM4NjE1MDEwNjU3MDU2Nzc5NA%3D%3D.2.c',
+        //         width: '300',
+        //         height: '300'
+        //     },
+        //     webButton: {
+        //         text: '핫도그 먹으러 갈래?',
+        //         url: 'http://khufun.com/'
+        //     }
+        // });
         
-        // 별다방
+        // // 별다방
         
-        Kakao.Link.createTalkLinkButton({
-            container: '#kakao_star_share',
-            label: '경희대학생 모두 쿠펀!!',
-            image: {
-                src: 'http://cfile219.uf.daum.net/image/2068E1104A12130B534A15',
-                width: '400',
-                height: '300'
-            },
-            webButton: {
-                text: '도시락 먹으러 갈래?',
-                url: 'http://khufun.com/'
-            }
-        });
+        // Kakao.Link.createTalkLinkButton({
+        //     container: '#kakao_star_share',
+        //     label: '경희대학생 모두 쿠펀!!',
+        //     image: {
+        //         src: 'http://cfile219.uf.daum.net/image/2068E1104A12130B534A15',
+        //         width: '400',
+        //         height: '300'
+        //     },
+        //     webButton: {
+        //         text: '도시락 먹으러 갈래?',
+        //         url: 'http://khufun.com/'
+        //     }
+        // });
         
-        // 미니펍
-        Kakao.Link.createTalkLinkButton({
-            container: '#kakao_mini_share',
-            label: '경희대학생 모두 쿠펀!!',
-            image: {
-                src: 'http://post.phinf.naver.net/MjAxNzAyMjFfMjk0/MDAxNDg3NjUyMTQ3NDc2.52jzHwgpxD6lZPSETBII6aEXapMgHblzO-onMnQoEQ0g.diTGH4olIuK4awg7wAu3Udc6T5cVWQHvvxEIDIbgSiEg.JPEG/%EB%AF%B8%EB%8B%88%ED%8E%8D%EC%83%98%ED%94%8C%EB%9F%AC.JPG?type=w1200',
-                width: '400',
-                height: '300'
-            },
-            webButton: {
-                text: '맥주 먹으러 갈래?',
-                url: 'http://khufun.com/'
-            }
-        });
+        // // 미니펍
+        // Kakao.Link.createTalkLinkButton({
+        //     container: '#kakao_mini_share',
+        //     label: '경희대학생 모두 쿠펀!!',
+        //     image: {
+        //         src: 'http://post.phinf.naver.net/MjAxNzAyMjFfMjk0/MDAxNDg3NjUyMTQ3NDc2.52jzHwgpxD6lZPSETBII6aEXapMgHblzO-onMnQoEQ0g.diTGH4olIuK4awg7wAu3Udc6T5cVWQHvvxEIDIbgSiEg.JPEG/%EB%AF%B8%EB%8B%88%ED%8E%8D%EC%83%98%ED%94%8C%EB%9F%AC.JPG?type=w1200',
+        //         width: '400',
+        //         height: '300'
+        //     },
+        //     webButton: {
+        //         text: '맥주 먹으러 갈래?',
+        //         url: 'http://khufun.com/'
+        //     }
+        // });
     })
    
 </script>
