@@ -52,20 +52,28 @@
           <li data-target="#myCarousel" data-slide-to="2"></li>
           <li data-target="#myCarousel" data-slide-to="3"></li>
           <li data-target="#myCarousel" data-slide-to="4"></li>
+          <li data-target="#myCarousel" data-slide-to="5"></li>
         </ol>
     
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
           
           <div class="item active">
-            <img src="<%= image_path("170604up.png") %>" alt="Los Angeles" style="width:100%;">
+            <img src="<%= image_path("170612up.png") %>" alt="Los Angeles" style="width:100%;">
             
           </div>
+          
+          <div class="item">
+            <img src="<%= image_path("huang.png") %>" alt="Los Angeles" style="width:100%;">
+            
+          </div>
+          
           
           <div class="item">
             <img src="<%= image_path("monday.png") %>" alt="Los Angeles" style="width:100%;">
             
           </div>
+          
           
           <div class="item">
             <img src="<%= image_path("howtouse.png") %>" alt="Los Angeles" style="width:100%;">
@@ -154,7 +162,7 @@
       <span>
         <!--<div>-->
           <i class="fa fa-quote-left" aria-hidden="true"></i>
-            <strong style="color:red">저희와 함께할 인재를 모시고 있어요!</strong> 카톡 아이디 hochun2 로 연락해주세요~
+            여러분 모두 시험 잘 보세요~<span style="color:red">♡</span>
           <i class="fa fa-quote-right" aria-hidden="true"></i>
         <!--</div>-->
       </span><br>
@@ -163,9 +171,113 @@
       </sapn>
       <sapn>
         <i class="fa fa-quote-left" aria-hidden="true"></i>
-          고깃집도 섭외하고 싶다...
+          고깃집을 섭외해 버렸다!!<span style="color:red">♡</span>
         <i class="fa fa-quote-right" aria-hidden="true"></i><br>
       </sapn>
+  </div>
+</div>
+
+<!--엉터리 생고기-->
+
+<div class="article">
+  <div class="article_nav">
+    <div class="article_nav_pic">
+      <img class="article_nav_pic" src="<%= image_path("ung_logo.png") %>">
+    </div>
+    <div class="article_nav_title">
+        엉생
+    </div>
+  </div>
+  <div class="article_pic_div">
+      
+        <div id="myCarousel" class="carousel slide myCarousel" data-interval="false" data-wrap="false">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+          
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="<%= image_path("ung_pic01.png") %>" alt="Los Angeles" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="<%= image_path("ung_pic02.png") %>" alt="Los Angeles" style="width:100%;">
+          </div>
+          <div class="item">
+            <img src="<%= image_path("ung_pic03.png") %>" alt="Los Angeles" style="width:100%;">
+          </div>
+          
+          <div class="item">
+            <img src="<%= image_path("ung_pic04.png") %>" alt="Chicago" style="width:100%;">
+            
+          </div>
+        
+          <div class="item">
+            <img src="<%= image_path("ung_pic05.png") %>" alt="New York" style="width:100%;">
+            
+          </div>
+          
+        </div>
+    
+        <!-- Left and right controls -->
+        
+      </div>
+    
+      
+      <!--<img>-->
+  </div>
+  <div class="article_tool">
+      
+    <!-- Button trigger modal -->
+    <button type="button" style="padding:0" class="btn_for_modal btn btn-lg" data-toggle="modal" data-target="#myModal_10">
+      <img class="article_tool_info_image" src="<%= image_path("getcoupon.png") %>">
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal_10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header article_nav">
+            
+            <!--<h4 class="modal-title" id="myModalLabel">Modal title</h4>-->
+            <div class="article_nav_pic">
+              <img class="article_nav_pic" src="<%= image_path("ung_logo.png") %>">
+            </div>
+            <div class="article_nav_title">
+                엉생
+            </div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            
+          </div>
+          <div class="modal-body" align="center">
+            <img src="<%= image_path("coupon_ung1.png") %>" style="width: 100%">
+            <img src="<%= image_path("coupon_ung2.png") %>" style="width: 100%">
+            KHUfun 최초 중복 사용 가능 쿠폰!
+          </div>
+          <div class="share_wrapper">
+            <button id="kakao_khufun_share_9" style="margin-bottom: 15px" type="button" class="btn btn_for_share">엉생 가티가장 &nbsp <img style="height:20px" src="<%= image_path("share.png") %>"></button>  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <hr class="article_tool_hr">
+  <div class="article_info">
+    <p style="font-size:20px"><strong>만든 녀석들 say</strong></p>
+    <i class="fa fa-quote-left" aria-hidden="true"></i>
+      우리는 항상 배고프고<br>
+      고기는.항상.옳다.
+      
+      
+      
+    <i class="fa fa-quote-right" aria-hidden="true"></i>
   </div>
 </div>
 
@@ -579,7 +691,7 @@
       가히 부대찌개의 끝판왕이라 해도 과언이 아니에요<br>
       거기다 우삼겹이 들어가버린다9요<br>
       부대찌개 먹고싶다...<br>
-      현재 자체적으로 5월 말까지 라면사리 증정 이벤트중!<br>
+      <!--현재 자체적으로 5월 말까지 라면사리 증정 이벤트중!<br>-->
       밥 무한대는 기본! sns공유시 음료까지 증정!!!<br>
       부대찌개의 신세계를 맛보고 싶다면 지금 바로 거거!!
       
@@ -1244,6 +1356,19 @@
         });
         Kakao.Link.createTalkLinkButton({
             container: '#kakao_khufun_share_8',
+            label: '경희대학생 모두 쿠펀!!',
+            image: {
+                src: 'http://mblogthumb4.phinf.naver.net/20150117_299/jj82847_1421453837396xpF1H_JPEG/2015-01-17_08%3B49%3B56.jpg?type=w2',
+                width: '300',
+                height: '400'
+            },
+            webButton: {
+                text: '쿠폰받으러 고고!',
+                url: 'http://khufun.com/'
+            }
+        });
+        Kakao.Link.createTalkLinkButton({
+            container: '#kakao_khufun_share_9',
             label: '경희대학생 모두 쿠펀!!',
             image: {
                 src: 'http://mblogthumb4.phinf.naver.net/20150117_299/jj82847_1421453837396xpF1H_JPEG/2015-01-17_08%3B49%3B56.jpg?type=w2',
